@@ -111,12 +111,28 @@ ul {
 
 }
 
-.header-menu-link:hover {
-    color: #404bbf;
+.header-menu-link.current {
+    color: #404BBF;
+    position: relative;
 }
 
-.header-menu-link:focus {
-    color: #404bbf;
+.header-menu-link.current::after {
+    content: '';
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    position: absolute;
+    display: block;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-menu-link.current:hover,
+.header-menu-link.current:focus {
+    color: #404BBF;
 }
 
 .adress-soc-list {
