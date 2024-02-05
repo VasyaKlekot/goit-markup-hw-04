@@ -45,6 +45,10 @@ ul {
 
 /* ======Header===== */
 .header {
+    box-shadow: 
+        0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);;
     border-bottom: 1px solid #e7e9fc
 }
 
@@ -56,6 +60,7 @@ ul {
 .header-navigation {
     display: flex;
     align-items: center;
+
 
 }
 
@@ -74,6 +79,7 @@ ul {
     width: 44px;
     height: 21px;
     display: flex;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-logo-web {
@@ -107,7 +113,7 @@ ul {
     text-decoration: none;
     cursor: pointer;
     padding: 24px 0;
-
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -161,7 +167,7 @@ ul {
     letter-spacing: 0.02em;
     text-decoration: none;
     padding: 24px 0;
-
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-soc-link:hover {
@@ -176,9 +182,16 @@ ul {
 
 /* ======Hero===== */
 .hero {
-    background: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+    url(../images/Office.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-container {
