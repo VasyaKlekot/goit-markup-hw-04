@@ -225,6 +225,7 @@ ul {
     min-width: 169px;
     height: 56px;
     border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 
@@ -253,6 +254,22 @@ gap: 24px;
 .features-list-item {
  width: calc((100% - 72px) / 4);   
 }
+
+.container-list-icons {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 112px;
+background-color: #F4F4FD;
+border-radius: 4px;
+margin-bottom: 8px;
+border: 1px solid #8E8F99;
+}
+
+.features-icons {
+
+}
+
 .features-items {
    margin-bottom: 8px;   
 }
