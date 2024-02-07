@@ -491,6 +491,10 @@ transform: translateY(0);
         display: flex;
 }
 
+.footer-div-logo {
+    margin-right: 120px;
+}
+
 .footer-logo {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
@@ -520,6 +524,7 @@ transform: translateY(0);
     display: block;
     justify-content: center;
     align-items: center;
+    
 }
 
 .footer-text-icon {
@@ -528,7 +533,7 @@ transform: translateY(0);
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #ffffff;
     display: flex;
     margin-bottom: 16px;
