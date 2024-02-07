@@ -55,6 +55,7 @@ ul {
 .header-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header-navigation {
@@ -76,8 +77,6 @@ ul {
     cursor: pointer;
     text-transform: uppercase;
     margin-right: 76px;
-    width: 44px;
-    height: 21px;
     display: flex;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -93,11 +92,7 @@ ul {
 
 .header-list {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
     gap: 40px;
-    margin-left: 76px;
-    margin-right: 166px;
 }
 
 .header-menu-item {
@@ -113,6 +108,7 @@ ul {
     text-decoration: none;
     cursor: pointer;
     padding: 24px 0;
+    display: block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -143,15 +139,12 @@ ul {
 
 .adress-soc-list {
     font-style: normal;
+    margin: auto;
 }
 
 .header-soc-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    margin-left: 166px;
-    margin-right: 156px;
 }
 
 .header-soc-item {
@@ -468,6 +461,7 @@ border: 1px solid #8E8F99;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    transform: translateY(100%);
 }
 
 .portfolio-item:hover,
